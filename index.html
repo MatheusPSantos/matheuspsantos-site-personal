@@ -1,36 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-	  <title>matheuspsantos.github.io</title>
+	  <title>my site</title>
     <meta charset="utf-8">
-    <meta name="viweport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="css/index.css">
+    <meta name="viweport" content="width=device-width, user-scalable=none">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   </head>
   <body>
-	  <header class="header">
-      <nav class="nav-menu">
-        <ul>
-		<li><a href="#">Sobre</li>
-          <li><a href="#">Contato</li>
-        </ul>
-      </nav>
-    </header>
-    <!-- The first section is an about section -->
-    <section id="about-section">
 
-    </section>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    
+    <div class="animated fadeIn" id="particles-js"></div>
 
-    <!-- The second section is in my projects and works section -->
-    <section id="portifolio-section">
+    <img class="animated fadeInLeft perfil-img" src="./image/bkg.png">
+    <div class="container">
+      <h1 class="animated fadeInDown col s12 center">Seja Bem-vindo!</h1>
+      <h4 class="animated fadeInRight col s6 center">Aqui estão alguns dos meus trabalhos e projetos</h4>
+      <div class="row animated fadeInUp">
+        
+        <div class="card col s4">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://guiaesoterico.com/wp-content/uploads/2016/07/Golfinho-Preto-1.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Golfinho Tunado<i class="material-icons rigth">close</i></span>
+            <p>Este golfinho é um projeto que envolve modificações no motor de um golfinho convencional. Ele é realmente muito tunado.</p>
+          </div>
+        </div>
 
-    </section>
+        <div class="card col s4">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="https://guiaesoterico.com/wp-content/uploads/2016/07/Golfinho-Preto-1.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">close</i></span>
+              <p>Este golfinho é um projeto que envolve modificações no motor de um golfinho convencional. Ele é realmente muito tunado.</p>
+            </div>
+        </div>
 
-    <!-- The third section contains my personal contacts, is an contact section -->
-    <section id="contact-setion">
-
-    </section>
-    <footer class="footer-page">
-
-    </footer>
+        <div class="card col s4">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="https://guiaesoterico.com/wp-content/uploads/2016/07/Golfinho-Preto-1.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">close</i></span>
+              <p>Este golfinho é um projeto que envolve modificações no motor de um golfinho convencional. Ele é realmente muito tunado.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer blue darken-1">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Matheus Pereira Dos Santos</h5>
+              <p class="grey-text text-lighten-4">Estudante, entusiasta e apaixonado por computação.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Social Medias</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" target="blank" href="https://github.com/matheuspsantos"><i class="fa fa-github" aria-hidden="true"></i> &nbsp; Github</a></li>
+                <li><a class="grey-text text-lighten-3" target="blank" href="https://www.linkedin.com/in/msantos97/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> &nbsp;Linkedin</a></li>
+                <li><a class="grey-text text-lighten-3" target="blank" href="https://www.facebook.com/matheus064"><i class="fa fa-facebook" aria-hidden="true"></i> &nbsp;Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2017 Matheus P. Santos
+          </div>
+        </div>
+      </footer>
+      <script src="./js/particles.min.js"></script>
+      <script src="./js/app.js"></script>
   </body>
 </html>
