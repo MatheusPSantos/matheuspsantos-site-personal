@@ -15,10 +15,9 @@ h1, h4 {
     color: #fff;
 }
 /* background image */
+
 .perfil-img {
-    position: fixed;
-    left: -2px;
-    bottom: 0%;
+    display: none;
 }
 
 #particles-js {
@@ -30,6 +29,8 @@ h1, h4 {
 
 @media (max-width: 900px) {
     .perfil-img {
-        display: none;
+        position: fixed;
+        left: -2px;
+        bottom: 0%;
     }
 }
