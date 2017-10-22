@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-	  <title>my site</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+	  <title>Personal website</title>
     <meta charset="utf-8">
-    <meta name="viweport" content="width=device-width, user-scalable=none">
+    <meta name="viewport" content="width=device-width, user-scalable=none">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   </head>
@@ -17,55 +18,46 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     
     <div class="animated fadeIn" id="particles-js"></div>
 
-    <img class="animated fadeInLeft perfil-img" src="./image/bkg.png">
+    <a href="#"><img class="animated fadeInLeft perfil-img" src="./image/bkg.png"></a>
     <div class="container">
+
       <h1 class="animated fadeInDown col s12 center">Seja Bem-vindo!</h1>
-      <h4 class="animated fadeInRight col s6 center">Aqui estão alguns dos meus trabalhos e projetos</h4>
-      <div class="row animated fadeInUp">
-        
-        <div class="card col s4">
+      <h4 class="animated fadeInRight col s6 center">Meus projetos, trabalhos e colaborações.</h4>
+      
+      <!-- Fonts awesome -->
+      <link rel="stylesheet" href="./css/font-awesome.min.css">
+      <div class="row animated fadeInUp">  
+        <div class="card col s3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="https://guiaesoterico.com/wp-content/uploads/2016/07/Golfinho-Preto-1.jpg">
+            <img class="activator" src="https://avatars2.githubusercontent.com/u/32141635?s=200&v=4" height="200">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">more_vert</i></span>
-            <p><a href="#">This is a link</a></p>
+            <span class="card-title activator grey-text text-darken-4">App Desperdício<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://github.com/UnectJr/appDesperdicio"><i class="fa fa-github fa-2x" aria-hidden="false"></i> Repositório</a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Golfinho Tunado<i class="material-icons rigth">close</i></span>
-            <p>Este golfinho é um projeto que envolve modificações no motor de um golfinho convencional. Ele é realmente muito tunado.</p>
+            <span class="card-title grey-text text-darken-4">App Desperdício<i class="material-icons right">close</i></span>
+            <p>Aplicativo desenvolvido pela Unect Jr, Ej de Computação da UTFPR-CP, que visa monitorar possíveis desperdícios de água no campus da universidade.</p>
+            <p><a href="https://github.com/UnectJr/appDesperdicio"><i class="fa fa-github fa-2x" aria-hidden="false"></i> Código Fonte</a></p>
           </div>
         </div>
-
-        <div class="card col s4">
+        
+        <div class="card col s3">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="https://guiaesoterico.com/wp-content/uploads/2016/07/Golfinho-Preto-1.jpg">
+              <img class="activator" src="data:image/png;base64,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" height="200">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">This is a link</a></p>
+              <span class="card-title activator grey-text text-darken-4">Emercontact<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://github.com/MatheusPSantos/Emercontact"><i class="fa fa-github fa-2x"></i> Repositório</a></p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">close</i></span>
-              <p>Este golfinho é um projeto que envolve modificações no motor de um golfinho convencional. Ele é realmente muito tunado.</p>
-            </div>
-        </div>
-
-        <div class="card col s4">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="https://guiaesoterico.com/wp-content/uploads/2016/07/Golfinho-Preto-1.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">This is a link</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Golfinho Tunado<i class="material-icons right">close</i></span>
-              <p>Este golfinho é um projeto que envolve modificações no motor de um golfinho convencional. Ele é realmente muito tunado.</p>
+              <span class="card-title grey-text text-darken-4">Emercontact<i class="material-icons right">close</i></span>
+              <p>Uma agenda rápida com os principais números de emergência.</p>
+              <p><a href="https://github.com/MatheusPSantos/Emercontact"><i class="fa fa-github fa-2x"></i> Código Fonte</a></p>
             </div>
         </div>
       </div>
