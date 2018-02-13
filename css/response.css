@@ -1,0 +1,270 @@
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+   /*  
+    *   Responsividade do site 
+    */
+    /*  Header  */
+    .header_menu {
+        text-align: center;
+        transition: all ease-in 0.2s;
+    }
+
+    /* Introdução */
+    .introducao {
+        margin-top: 90px;
+        background-position: 100%;
+        transition: all ease-in 0.2s;
+    }
+
+    /*  Apresentação    */
+    .apresentacao {
+        text-align: left;
+        transition: all ease-in 0.2s;
+    }
+
+    .prees-content p {
+        padding: 0px;
+        text-align: left;
+        transition: all ease-in 0.2s;
+    }
+
+    .press-image {
+        padding-top: 80px;
+        margin: 0;
+        transition: all ease-in 0.2s;
+    }
+
+    /*  Planos  */
+
+    .planos p {
+        text-align: left;
+        transition: all ease-in 0.2s;
+    }
+
+    .planos-caixa {
+        margin: 20px 10px;
+        display: block;
+        transition: all ease-in 0.2s;
+    }
+
+    .caixa-content img {
+        margin-left: 80px;
+        transition: all ease-in 0.2s;
+    }
+    .caixa-content ul li {
+        margin-bottom: 10px;
+        transition: all ease-in 0.2s;
+    }
+
+    /*  Botões  */
+    .btn {
+        margin: 10px 15px;
+        padding: 5px 0 5px 0;
+        margin-left: 150px;
+        transition: all ease-in 0.2s;
+    }
+
+    /*  Rodapé  */
+    .footer-content p{
+        margin-top: 10px;
+        transition: all ease-in 0.2s;
+    }
+
+    .copy {
+        margin: 0;
+        margin-top: 20px;
+        transition: all ease-in 0.2s;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /*  
+    *   Responsividade do site   
+    */
+   
+    /*  Header  */
+    .header {
+        height: 80px;
+        padding: 0;
+    }
+    .header a img {
+        margin: 0;
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+
+    .header label {
+        display: block;
+        margin-top: -80px;
+        cursor: pointer;
+    }
+
+    .header a img {
+        margin: 10px;
+        transition: all ease 0.4s;
+        margin-left: 100px;
+    }
+
+    .header_menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        transition: all ease 0.4s;
+        background-color: #f2f2f2;
+    }
+
+    .header_menu ul li {
+        border-bottom: 1px solid #87dcde;
+        display: block;
+        padding: 2px 7px;
+        margin: 0;
+        transition: all ease 0.4s;
+    }
+    #toggle:checked + .header_menu {
+        display: block;
+    }
+
+
+    /*  Introdução  */
+
+    .introducao {
+        margin-top: 82px;
+        background-position-x: 50%;
+        background-size: cover;
+        transition: all ease 0.4s;
+    }
+    .introducao h2 {
+        padding-top: 200px;
+        font-size: 24px;
+        transition: all ease 0.4s;
+    }
+    .introducao p {
+        padding-top: 20px;
+        
+        font-size: 18px;
+        transition: all ease 0.4s;
+    }
+
+    /*  Apresentação    */
+    .apresentacao {
+        text-align: center;
+        transition: all ease 0.4s;
+    }
+    .press-content {
+        height: 580px;
+        display: flex;
+        transition: all ease 0.4s;
+    }
+    .press-content p {
+        padding: 0;
+        padding-top: 40px;
+        margin-bottom: 40px;
+        transition: all ease 0.4s;
+    }
+    .press-image {
+        padding-top: 180px;
+        
+    }
+    .press-image img {
+        padding-left: 50px;                
+    }
+
+    /*  Planos  */
+    
+    .planos {
+        height: auto;
+        padding: 20px 0;
+        transition: all ease 0.4s;
+    }
+
+    .planos p {
+        padding-bottom: 20px;
+        margin:0;
+        transition: all ease 0.4s;
+    }
+    .planos-caixa {
+        border-width: 6px;
+        display: flex;
+        margin: 40px 0 !important;
+        padding: 20px 0;
+        width: 290px !important;
+        transition: all ease 0.4s;
+    }
+    .caixa-content {
+        padding: 0;
+        width: 290px;
+        text-align: center;
+        transition: all ease 0.4s;
+    }
+    .caixa-content h3 {
+        padding: 4px 0;
+        margin: 10px 0;
+        font-size: 18px;
+        text-align: center;
+        height: auto;
+        width: 290px;
+        transition: all ease 0.4s;
+    }
+    .caixa-content img {
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 80px;
+        transition: all ease 0.4s;
+    }
+    .caixa-content ul {
+        padding: 2px;
+        margin: 10px 0;
+        font-size: 16px;
+        transition: all ease 0.4s;
+    }
+    .caixa-content ul li {
+        margin: 5px 0;
+        transition: all ease 0.4s;
+    }
+    .caixa-descricao {
+        padding: 10px 0px;
+        transition: all ease 0.4s;
+    }
+    .caixa-descricao p {
+        font-size: 16px;
+        text-align: left;
+        margin: 20px 0;
+        transition: all ease 0.4s;
+    }
+
+    /*  Botões  */
+    .btn {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        display: block;
+        width: 290px !important;
+        transition: all ease 0.4s;
+    }
+
+    /*  Rodapé    */
+    .rodape {
+        height: 500px;
+        transition: all ease 0.4s;
+    }
+    .footer-content {
+        margin: 50px 0;
+        transition: all ease 0.4s;
+    }
+    .footer-content p {
+        margin-left: 20px;
+        transition: all ease 0.4s;
+    }
+    .footer-content h3 {
+        margin-left: 20px;
+        transition: all ease 0.4s;
+    }
+    .footer-btn {
+        margin: 20px 50px;
+        transition: all ease 0.4s;
+    }
+    .copy {
+        display: block;
+        transition: all ease 0.4s;
+    }
+}

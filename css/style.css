@@ -1,0 +1,329 @@
+/*	Imports */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+/*	Estilos Gerais	*/
+
+body {
+	font-family: Ubuntu, sans-serif;
+}
+
+p {
+	font-family: Ubuntu, sans-serif;
+	font-size: 20px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/*	Header 	*/
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 5px 0;
+	background: #f2f2f2;
+}
+
+.header label {
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	width: 30px;
+	float: right;
+	display: none;
+}
+
+#toggle {
+	display: none;
+	
+}
+
+.header_menu {
+	text-align: right;
+	transition: all ease 0.4s;
+}
+
+.header_menu ul li {
+	clear: right;
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.header_menu ul li a {
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: .01em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+	color: #ff0066;
+}
+
+/*	Introdução	*/
+
+.introducao {
+	width: 100%;
+	background: url("../img/bg.png");
+	background-size: cover;
+	height: 520px;
+	margin-top: 90px;
+	text-align: center;
+}
+
+.introducao h2 {
+	font-size: 32px;
+	color: #000;
+	padding-top: 220px;
+}
+
+.introducao p {
+	padding-top: 10px;
+}
+
+.introducao i {
+	color: #ff0066;
+	font-style: normal;
+}
+
+/*	Apresentação	*/
+.apresentacao {
+	width: 100%;
+	text-align: left;
+}
+
+.press-content {
+	height: 520px;
+	width: 100%;
+}
+
+.press-content h1, 
+.press-content h2 {
+	padding-top: 40px;
+	font-size: 32px;
+	text-align: center;
+
+}
+
+.press-content p {
+	padding-top: 160px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.press-image {
+	padding-top: 120px;
+}
+
+#press-1 {
+	background-color: #87cdde;
+}
+
+#press-1 p {
+	color: #fff;
+}
+
+#press-1 h2 {
+	color: #fff;
+}
+
+#press-2 {
+	background-color: #fff;
+}
+
+#press-2 p {
+	color: #37abc8;
+}
+
+#press-2 h2 {
+	color: #37abc8;
+}
+
+/*	Planos	*/
+
+.planos {
+	width: 100%;
+	padding-bottom: 50px;
+	background-color: #4d4d4d;
+}
+
+.planos h1, 
+.planos h2 {
+	color: #fff;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 32px;
+}
+
+.planos p {
+	color: #fff;
+	text-align: center;
+	padding-top: 60px;
+	font-size: 20px;
+}
+
+.planos-caixa {
+	border-color: #87cdde;
+	border-width: 6px;
+	border-style: solid;
+	width: 100%;
+	display: inline-flex;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.caixa-content {
+	width: 100%;
+}
+
+.caixa-content h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	background: #87cdde;
+	height: 40px;
+	width: 100%;
+	padding-top: 8px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.caixa-content img {
+	margin-top: 20px;
+	margin-left: 130px;
+}
+
+.caixa-content ul {
+	padding: 5px 35px;
+	font-size: 24px;
+	color: #fff;
+}
+
+.caixa-content ul li {
+	margin-top: 20px;
+}
+
+.caixa-descricao {
+	border-top: 6px;
+	border-color:#87cdde;
+	border-style: solid;
+	padding: 10px;
+}
+
+.caixa-descricao p {
+	margin: 0;
+	padding: 10px;
+}
+
+.caixa-descricao-solid {
+	background: rgb(32, 31, 31);
+}
+
+.caixa-descricao-solid p {
+	color: #87cdde;
+}
+/*	Botões */
+
+.btn {
+	border: 3.5px #5fbcd3 solid;
+	border-radius: 50px;
+	font-size: 20px;
+	text-align: center;
+	display: inline;
+	transition: all ease 0.3s;
+	padding: 3px;
+	margin-left: 250px;
+}
+
+.btn:hover {
+	border-color: #fff;
+	background-color: #ff0066;
+}
+
+.btn a {
+	color: #fff;
+	width: 100%;
+}
+
+.btn-solid {
+	background: #87cdde;
+}
+
+.btn-solid:hover {
+	border-color: #ff0066;
+	color: #ff0066;
+	background: #4d4d4d
+}
+
+/*	Rodapé	*/
+.rodape {
+	height: 550px;
+	background-color: #87cdde;
+	color: #fff;
+}
+
+.rodape h1,
+.rodape h2 {
+	font-size: 32px;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.footer-content {
+	margin-top: 140px;
+}
+
+.footer-content p {
+	margin: 10px;
+}
+
+.footer-content p a {
+	color: #fff;
+	text-decoration-line: underline;
+	transition: all ease 0.3s;
+}
+
+.footer-content p a:hover {
+	color: #ff0066;
+}
+
+.footer-btn {
+	margin: 10px;
+	padding: 5px;
+	border: #fff solid 3px;
+	border-radius: 50px;
+	width: 50%;
+	height: 20px;
+	text-align: center;
+	color: #fff;
+	transition: all ease 0.3s;
+}
+
+.footer-btn:hover {
+	background-color: #ff0066;
+}
+
+.copy {
+	margin-top: 110px;
+	padding-top: 10px;
+	text-align: center;
+	border-top: #fff solid 1px;
+}
+
+.copy span {
+	font-size: 14px;
+}
+
+.copy p {
+	font-size: 12px;
+}
